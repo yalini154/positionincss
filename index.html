@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style> 
+        div{ 
+            right: 30px;
+            border: 3px solid red;
+        } 
+        div.absolute{
+            position: absolute;
+            left: 50px;
+            border: 3px solid darkred;
+        } 
+        div.relative{
+            position: relative;
+            left: 100px;
+            border: 3px solid lightcoral;
+        }
+        div.fixed{ 
+            position: fixed;
+            top: 0;
+            right: 20px;
+            width: 300px;
+            border: 3px solid crimson;
+        }
+        div.opacity{
+            opacity: 0.6;
+            background-color: rgb(93, 3, 3);
+        }
+    </style>
+</head>
+<body>
+   <div> no position </div> 
+   <div class="absolute"> absolute position </div>
+   <div class="relative"> relative position </div>
+   <div class="fixed"> fixed position </div>
+   <div class="opacity"> opacity </div>
+</body>
+</html>
